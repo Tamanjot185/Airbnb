@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+    <h1>Welcome, {{ email }}</h1>
+
+    <h2>Update Profile</h2>
+    <form method="POST">
+        <div>
+            <label>Email</label>
+            <input type="text" name="email" value="{{ email }}">
+        </div>
+        <button type="submit">Update Email</button>
+    </form>
+
+    <hr>
+
+    <p><a href="{{ url_for('logout') }}">Log Out</a></p>
+</body>
+</html>
