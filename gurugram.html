@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurugram Image Description</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #description {
+            display: none;
+            margin-top: 20px;
+        }
+        .extra-images img {
+            width: 150px;
+            height: auto;
+            margin: 10px;
+        }
+        .details {
+            margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .price-book {
+            margin-top: 20px;
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .price-book button {
+            background-color: #FF5A5F;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+    </style>
+    <script>
+        function showDescription() {
+            document.getElementById("description").style.display = "block";
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Welcome to Gurugram</h1>
+    <p>Click on the image to see more details.</p>
+    
+    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1228130328368936850/original/9862f5b8-2629-442f-a57d-273b658fdeb0.jpeg?im_w=720&im_format=avif" alt="Gurugram" width="300px" onclick="showDescription()">
+    
+    <div id="description">
+        <h2>About Gurugram</h2>
+        <p>Gurugram, formerly known as Gurgaon, is a city in the Indian state of Haryana. It is known for its modern infrastructure, corporate offices, and vibrant nightlife.</p>
+        <div class="details">
+            <p><strong>Guests:</strong> 2 guests</p>
+            <p><strong>Beds:</strong> 1 bedroom, 2 beds</p>
+            <p><strong>Bathroom:</strong> 1 bathroom</p>
+            <p><strong>Rating:</strong> ⭐ 4.88 (8 reviews)</p>
+            <p>Enjoy a peaceful stay with great comfort and view ^^</p>
+        </div>
+    
+        <div class="price-book">
+            <h2>₹58,210 per night</h2>
+        </div>
+    </div>
+    
+    </div>
+
+</body>
+</html>
